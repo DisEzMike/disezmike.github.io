@@ -1,7 +1,7 @@
 {
     "name": "dentallog",
     "short_name": "dentallog",
-    "start_url": "/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
@@ -15,7 +15,7 @@
             "type": "image/png"
         },
         {
-            "src": "assets/icons/Icon-512.png",
+            "src": "icons/Icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
@@ -26,7 +26,7 @@
             "purpose": "maskable"
         },
         {
-            "src": "assets/icons/Icon-maskable-512.png",
+            "src": "icons/Icon-maskable-512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
