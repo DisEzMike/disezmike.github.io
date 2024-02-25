@@ -23,18 +23,18 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dentallog">
+  <meta name="apple-mobile-web-app-title" content="maderkinkao">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
+  <meta name="google-signin-client_id" content="505215768892-np8i3s0gf0i3htp3br7ubecok2bhkou9.apps.googleusercontent.com" />
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>dentallog</title>
+  <title>maderkinkao</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3660571360";
+    const serviceWorkerVersion = "3514252943";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -54,6 +54,31 @@
         }
       });
     });
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAEHL_mYymunWMRTL0Af4OKilCgg2squxo",
+      authDomain: "marderkinjao.firebaseapp.com",
+      projectId: "marderkinjao",
+      storageBucket: "marderkinjao.appspot.com",
+      messagingSenderId: "505215768892",
+      appId: "1:505215768892:web:f0777990ed687cd57c6639",
+      measurementId: "G-6652QRP5TM"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
 </body>
 </html>
