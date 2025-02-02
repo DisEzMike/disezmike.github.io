@@ -6,13 +6,16 @@ body {
 	background-color: #010101 !important;
 }
 
+
 .navbar {
     height: 6vh;
+    filter: drop-shadow(5px 5px 5px #aaa);
 }
 
 .navbar-dark .navbar-brand {
 	font-size: 30px;
 	font-weight: bold;
+    color: rgb(255, 255, 255, 1);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -20,7 +23,7 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
     margin-left: 10px;
-	color: rgba(255, 255, 255, 1);
+	color: rgb(255, 255, 255, 1);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -32,7 +35,9 @@ body {
 
 .section-1 {
     height: 100vh;
-    background-color: black;
+    background-image: url("./assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main {
